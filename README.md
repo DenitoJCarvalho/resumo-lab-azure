@@ -47,3 +47,52 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
   - Sincornização de arquivos:
     - Sincroniza os arquivos do azure e locais de forma bidirecional
     - A camada de nuvem mantém  os arquivos acessados com frequência no local, enquanto libera espaço
+
+- ### Identidade, acesso e segurança
+  - Microsoft entra ID = Active Directory
+  - Serviço de gerenciamento de identidades e acesso baseado em nuvem do Microsoft Azure
+
+  - #### SSO
+    - esquema de autenticação que permite que um usuário faça login com um único ID em qualquer um dos vários sistemas de software realcionados, mas independentes
+    - permite que usuário fa login uma vez acesse os serviços sem inserir novamenteos fatores de autenticação
+
+  - #### Autenticação
+    - identifica a pessoa ou serviço buscando  acesso a um recurso
+    - solicita credenciais de acesso legitímo
+    - base para criar princípios de identidade e controle de acesso
+    - determna o nível de acesso de uma  pessoaou serviço autenticado
+    - define quais dados  eles podem acessar e o que podem  fazer com eles
+
+  - #### Autenticação Multifator
+    - fornece segurança adcional para as identidades, exigiindo dois ou mais elementos para autenticação completa
+    - Estatégia:
+      - Algo que você sabe
+      - Algo que você possui
+      - Algo que você é
+
+  - #### Acesso condicional
+    - associação de usuário  ou grupo
+    - local IP
+    - dispositivo
+    - aplicativo
+    - detecção de risco
+
+  - #### Controle de acesso baseado em função
+    - gerenciamento de acesso  de granularidade fina
+    - divide as tarefas dentro da equipe e concede somentea quantiadade de acesso de que os usuários precisam para trabalhar
+    - habilita o acesso ao portal do azure e o controle de acesso aos recursos
+
+  - #### Proteção
+    Camadas |
+    --------|
+    Segurança física |
+    Identidade e acesso |
+    Perímetro |
+    Rede |
+    Computação |
+    Aplicativo |
+    Dados |
+
+  - #### Microsoft Defender
+    - serviço de monitoramento que fornece proteçção contra ameaças nos datacenters do azure e locais
+    - **RBAC (Role-Based Access Control)**  - modelo de controle de acesso que restringe o acesso a recursos e operações com base nas funções (roles) dos usuários dentro de um sistema. Em vez de conceder permissões diretamente a cada usuário, as permissões são atribuídas a funções, e os usuários recebem essas funções. Isso facilita a administração de permissões em sistemas complexos
