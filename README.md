@@ -112,3 +112,21 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
           - organizam os recursos em uma taxonomia de maneira lógica
           - consistem em um par nome - valor
           - muito úteis para reunir informações de cobrança  
+
+#### Governança e Conformidade
+  - **Azure Policy**:
+    - padrões organizacionais e a avaliação de conformidade em escala
+    - fornece governança e consistência  de recursos com conformidade regulatória, segurança, custo gerenciamento
+    - Avalia e identifica os recursos que não atendem as suas politicas
+    - fornece definições de políticas e iniciativas integradas, em categrias como aramazenamento, rede, computação, centralde segurança e monitoramento
+
+  - **Bloqueio de recursos**:
+    - protege os recursos de exclusão ou modificação acidental
+    - gerenciar bloqueios na assinatura, grupo de recursos ou níveis de recursos individuais dentro do portal azure
+   
+  - **Microsoft Purview**:
+    - família de soluções de governança, risco  e conformidade de dados que ajuda você a obter uma única exibição unificada em seus dados
+    - reúne insights sobre seus dados locais, multinuvem e de software com serviço
+    - decoberta de dados
+    - classificação de dados confidenciais
+    - linhagem de dados de ponta-a-ponta
