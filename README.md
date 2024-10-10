@@ -96,3 +96,19 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
   - #### Microsoft Defender
     - serviço de monitoramento que fornece proteçção contra ameaças nos datacenters do azure e locais
     - **RBAC (Role-Based Access Control)**  - modelo de controle de acesso que restringe o acesso a recursos e operações com base nas funções (roles) dos usuários dentro de um sistema. Em vez de conceder permissões diretamente a cada usuário, as permissões são atribuídas a funções, e os usuários recebem essas funções. Isso facilita a administração de permissões em sistemas complexos
+
+  #### Gerenciamento de custo  do Azure
+    - envolve fatores podem afetar os custos no Azure.
+    - **Fatores que afetam:**<br>
+      1 - **_Tipo de recurso_**: os custos são específicos do recurso, portanto, o uso que um medidor rastreia é o número de medidores associados a um recurso, dependendo do tipo de recurso.<br>
+      2 - **_Consumo_**: com um modelo pago conforme o uso, o consumo é um dos maiores geradores de custos.<br>
+      3 - **_Manutenção_**: monitorar seu volume do Azure e manter seu ambiente pode ajudá-lo a identificar  e reduzir custos que não são necessários, como ao desligar máquinas virtuais subutilizadas.<br>
+      4 - **_Área geográfica_**: o mesmo tipo  de recurso pode custar valores diferentes dependendo da área geográfica, o que afeta os custos do Azure.<br>
+      5 - **_Tráfego de rede_**: embora algumas transferência de dados de entrada sejam gratuitas, o custo para dados de saída ou dados entre  recursos do Azure é afetado por zonas de cobrança.<br>
+      6 - **_Assinaturas_**: o tipo e a configuração da assinatura também podem afetar o custo. Por exemplo a avaliação gratuita permite explorar alguns recursos do Azure gatuitamente.<br>
+      7 - **_Azure Marketplace_**: permite que os clientes encontrem, experimente, comprem e provisionem aplicativos e serviços de centenas de provedores.<br>
+      8 - **_Marcas_**:
+          - fornecem metadados aos recursos do Azure
+          - organizam os recursos em uma taxonomia de maneira lógica
+          - consistem em um par nome - valor
+          - muito úteis para reunir informações de cobrança  
