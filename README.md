@@ -130,3 +130,36 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
     - decoberta de dados
     - classificação de dados confidenciais
     - linhagem de dados de ponta-a-ponta
+
+#### Ferramentas de Implementação de Recursos
+  - **Ferramentas para interagir com Azure**:
+    • Portal do Azure
+    • Azure Cloud Shell
+    • Azure Power Shell
+    • Interface de Linha de Comando (CLI)
+
+  - **Azure ARC (Azure Resource Manager)**:
+    - é uma extensão  do gerencimaento do Azure(local, várias nuvens e borda)
+    - painel único  de gerenciamento
+    - controle de acesso baseado em função
+    - práticas nativas de nuvem
+    - segurança e conformidade
+    - fornce uma camada de gerenciamento que permite criar, atualizar e excluir recursos na assinatura do Azure
+    - garante consistência na implantação em todo o sistema de nuvem
+    - gerencia a confiuguraçao em escala
+    - provisiona rapidamente ambientes adicionais com base em uma configuração e um build padrão
+    - são arquivos JSON que podem ser usados para criar e implantar a infraestrutura do Azure sem a necessidade de escrever comandos de programação
+    - _Modelos:_
+      - sintaze declarativa
+      - resultado repetíveis
+      - orquestração
+      - arquivos modulares
+      - validaçao integrada
+      - código exportável
+     
+    - **Bicep**:
+      - linguagem específica de dominio (DSL) que usa sintaxe declarativa para implantar recursos do Azure
+      - define a infraestrutura que deseja implantar, eme seguida, usa esse arquivo durante todo o cilco de vidade de desenvolvimento para implantar repetidamente sua infraestrutura
+      - os recursos são implementados de maneira consistente
+      - sintaxe concisa, segurança de tipos confiável e suporte para reutilização de código
+      - compatível somente com o Azure;
